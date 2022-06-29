@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MACERA TURİZM</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">MACERA TURİZM</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Ana Sayfa</li>
+            <li><a href="#"></a>Turlar</li>
+            <li><a href="#"></a>Keşfedin</li>
+            <li><a href="#"></a>Hakkmızda</li>
+            <li class="ctn"><a href="#"></a>İletişim</li>
+        </ul>
+        <img src="img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Renkli Dünyayı Keşfedin</h2>
+            <div class="line"></div>
+            <h1>MÜKEMMEL BİR HEDİYE</h1>
+            <a href="#" class="ctn">Daha fazla bilgi edin</a>
+        </div>
+    </header>
+
+    <!-- == Events == -->
+
+    <section class="events">
+        <div class="title">
+            <h1>Yaklaşan Etkinlikler</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img/img1.png" alt="">
+                <h4>Everest kamp yürüyüşü</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil iure amet sed libero qui voluptatem?
+                </p>
+                <a href="#" class="ctn">Daha fazla bilgi edin</a>
+            </div>
+            <div class="col">
+                <img src="img/img2.png" alt="">
+                <h4>Yürüyüş Tatilleri</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil iure amet sed libero qui voluptatem?
+                </p>
+                <a href="#" class="ctn">Daha fazla bilgi edin</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>DÜNYAYI KEŞFET</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aliquam, tenetur atque facilis laboriosam
+                ullam asperiores corrupti nihil sit! Ducimus numquam hic iure dolore tenetur.</p>
+            <a href="#" class="ctn">Daha fazla bilgi edin</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>YAKLAŞAN TURLAR & GEZİLER</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque ipsum non perspiciatis ratione! Consequatur molestias fugiat libero eaque illum amet. Qui, nam. Ipsa unde qui vel pariatur modi quidem dignissimos!</p>
+                <a href="#" class="ctn">Daha fazla bilgi edin</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="img/img3.png" alt="">
+                    <img src="img/img4.png" alt="">
+                    <img src="img/img5.png" alt="">
+                    <img src="img/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Ankara - Türkiye | Telefon: 0555 333 888 | Email: contact@gmail.com</p>
+        <p>Copyright © 2022 Macera Turizm</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+
+    </script>
+
+
+
+</body>
+
+</html>
